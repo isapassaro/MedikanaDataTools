@@ -95,7 +95,7 @@ def load_google_sheet(file_id: str, sheet_name: str) -> pd.DataFrame:
 GOOGLE_SHEET_ID = st.secrets["GOOGLESHEETID"]
 METADATA_FILES = {
     'World Bank': 'WB Dataset Index',
-    # 'World Health Organization': 'WHO Dataset Index'
+    'World Health Organization': 'WHO Dataset Index'
 }
 
 # Country Codes for Analysis
